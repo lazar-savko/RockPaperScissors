@@ -1,0 +1,162 @@
+body{
+    background-color: rgba(24,33,66,255);
+    height: 100vh;
+}
+
+#top{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 25%;
+
+}
+
+#header{
+    border: rgba(79,94,122,255) 2px solid;
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#title{
+    height: 100%;
+    width: 25%;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.textTitle{
+    color: white;
+    margin: 0px;
+}
+
+#textScore{
+    color: rgba(102,121,210,255);
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+#score{
+    margin: 0px;
+    color: rgba(87,84,109,255);
+    font-size: 70px;
+}
+
+#whiteScore{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#bottom{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.choice{
+    border: rgba(81,109,245,255) 20px solid;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(224,224,224,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.choice:hover{
+    cursor: pointer;
+    pointer-events: auto;
+
+    transform: scale(103%);
+    transition: ease-in 0.1s;
+}
+
+.images{
+    width: 50px;
+    cursor: pointer;
+}
+
+#paper{
+    border-color: red;
+    top: 50px;
+    left: 300px;
+}
+
+#scissors{
+    border-color: green;
+    top: 50px;
+    left: 50px;
+}
+
+#rock{
+    top: 200px;
+    left: 175px;
+}
+
+#middleBottom{
+    width: 500px;
+    position: relative;
+}
+
+.right{
+    border: rgba(81,109,245,255) 20px solid;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(224,224,224,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.left{
+    border: rgba(81,109,245,255) 20px solid;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-color: rgba(224,224,224,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+#l{
+    top: 100px;
+    left: 500px;
+}
+
+#r{
+    top:100px;
+    left: 100px;
+}
+
+#result{
+    width: 500px;
+    position: relative
+}
+
+#whoWon{
+    position: absolute;
+    color: white;
+    left: 360px;
+    top: 150px;
+
+}
